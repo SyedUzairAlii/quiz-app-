@@ -1,0 +1,91 @@
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    justify-content: center;
+    margin-top: 3em;
+}
+.dashboard h1{
+    /* border: 2px solid black; */
+    flex-basis: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: #3477d0; */
+    /* color: white; */
+}
+.quiz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 100%;
+}
+.quiz span{
+    font-size: large;
+    display: inline;
+}
+.items{
+    padding: 15px;
+    /* border: 2px solid purple; */
+    flex-basis: 100%;
+}
+.items h3{
+    display: inline;
+    margin-right: 4em;
+}
+.items button{
+    margin-left: 1em;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    /* background-color: #3477d0; */
+    /* border: 1px solid white; */
+    /* color: white; */
+    cursor: pointer;
+}
+@media (max-width:500px){
+    .items h3{
+        margin-right: 0em;
+        display: block;
+    }
+    .items button{
+        margin: 0.5em 0.4em;
+    }
+}
+.startQuizBtn{
+    padding: 10px 15px 10px 15px;
+    margin: 1em 1em 1em 0em;
+    border-radius: 3px;
+    /* background-color: #3477d0; */
+    /* border: 1px solid white; */
+    /* color: white; */
+    cursor: pointer;
+}
+.items input{
+    width: 60%;
+    /* color: gray; */
+    font-size: medium;
+}
+.radioBtn{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+    /* flex-basis: 58%; */
+    width: 700px;
+    /* border: 1px solid white; */
+}
+.radioBtn2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px;
+    margin: 5px !important;
+    /* flex-basis: 32%; */
+    width: 282px;
+    /* border: 1px solid white; */
+}
+.radioBtn input[type='radio']{
+    /* margin: 0px; */
+    width: 30px;
+}
+.radioBtn span{
+    margin: 0px;
+}

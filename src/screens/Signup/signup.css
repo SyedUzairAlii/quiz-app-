@@ -1,0 +1,85 @@
+.userReg{
+    /* position: fixed; */
+    padding-top: 4em;
+    width: 100%;
+    z-index: -2;
+    justify-content: center;
+    display: flex;
+  }
+  .signUpForm{
+    justify-content: center;
+    width: 400px;
+    padding: 5px;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    height: auto;
+    /* background-color: #316dc3; */
+  }
+  .userSignup{
+    /* border: 2px solid white; */
+    flex-basis: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 15px;
+    /* color: white; */
+  }
+  .text{
+    /* color: white; */
+    text-align: left;
+    padding-left: 3em !important;
+  }
+  .text,.fields{
+    padding: 4px 10px 4px 15px;
+    font-weight: bold;
+    font-size: small;
+    flex-basis: 100%;
+    /* border-right: 2px solid white; */
+    /* border-left: 2px solid white; */
+  }
+  .fields:last-child{
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 1em;
+  }
+  .hrow{
+    height: 1em;
+    /* border-right: 2px solid white; */
+    /* border-left: 2px solid white; */
+    width: 100%;
+  }
+  .btn{
+    padding: 7px 15px 7px 15px;
+    font-size: medium;
+    margin-left: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+    /* background-color: #316dc3; */
+    /* border: 1px solid white; */
+    /* color: white; */
+  }
+  .btn:hover{
+    /* background-color: #2e77de; */
+    /* box-shadow: 0px 0px 3px 1px white; */
+  }
+  input{
+    width: 80%;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+  }
+  .fields>h4{
+    float: left;
+    /* color: white; */
+  }
+  .signuplink{
+    border: none;
+    cursor: pointer;
+    background: none;
+    /* color: white; */
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 0.2em;
+  }
+  .signuplink:hover {
+    /* color: blue; */
+  }

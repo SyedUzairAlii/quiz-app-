@@ -1,0 +1,23 @@
+body{
+    background: url('../../Assets/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.flex-container>h1{
+    padding: 15px;
+    /* color: white; */
+    margin: 0px 0px;
+    flex-grow: 1;
+}
+.flex-container{
+    /* background-color: #316dc3; */
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container button{
+    margin: 1em 4em 1em 1em;
+}
